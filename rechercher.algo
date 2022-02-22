@@ -1,0 +1,17 @@
+PROCEDURE tri_insertion(tab[1:n])
+VAR
+    n: INTEGER;
+    i,j:INTEGER;
+    elt= tab[i];
+
+BEGIN
+    FOR i FROM 0 TO tab.length-1 STEP 1 DO
+    i=j
+    elt = tab[i]
+            WHILE (j>0 && tab[j-1] > elt) DO
+                tab[j]=tab[j-1]
+                j--
+            END_WHILE
+            tab[j] ) elt
+    END_FOR
+END
